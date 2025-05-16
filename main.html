@@ -1,16 +1,24 @@
 <!DOCTYPE html>
-
 <html>
-
 <head>
-	<link rel="stylesheet" href="styles.css">
+  <title>Enter Metaverse</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 30px;
+    }
+  </style>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+
+  <p id="status">Enter the Metaverse</p>
+  <button id="enterBtn">Enter</button>
+
+  <script>
+    document.getElementById("enterBtn").addEventListener("click", function () {
+      document.getElementById("status").innerHTML = "<h1>Entered Metaverse</h1>";
+    });
+  </script>
 
 </body>
-
 </html>
